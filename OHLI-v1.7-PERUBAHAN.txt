@@ -1,0 +1,15 @@
+OHLI Social v1.7
+- Akar bug layout/scroll: class .ohli-stage dan .ohli-card dipakai ganda (skin lama vs UI sosial). Skin lama diganti nama jadi .ohli-svstage/.ohli-lcard/.ohli-lpost.
+  Efeknya: halaman bisa discroll atas-bawah lagi (Beranda, Profil), composer tidak loncat, tampilan HP mengikuti layout laptop.
+- Navigasi bawah HP: 5 tombol tampil benar dan ikut tema gelap.
+- Video pendek: feed layar penuh snap ala TikTok/Reels; putar otomatis saat terlihat, ketuk = putar/jeda, tombol suara, suka/komentar/simpan/bagikan, bar progres.
+- Video di feed & profil: tanpa kontrol bawaan, ketuk untuk putar/jeda.
+- Profil > Media: grid 3 kolom ala Instagram, ketuk untuk membuka.
+BELUM: chat grup, posting Channel, nomor+QR+pemindai kontak, edit/hapus foto & cover profil, tema chat lama.
+
+v1.8 (layout chat WA)
+- Chat laptop = gaya WA Desktop: rel ikon kiri (Chat/Pembaruan/Kontak/Panggilan/Pengaturan), daftar chat, percakapan di kanan.
+- Chat HP = gaya WA HP: layar daftar (bar tab bawah) -> layar percakapan penuh; bar tab disembunyikan saat chat dibuka, kolom ketik selalu terlihat.
+- Penyebab bar hilang: class chat-open tidak pernah dipasang kode lama; sekarang dipasang otomatis.
+- Tombol "OHLI Social" (kembali ke beranda) diberi style; judul "Chat" dan jam pesan terbaca di tema terang/gelap.
+- HP sempit (<=520px): ikon emoji/kecepatan/AI di kolom ketik disembunyikan agar kolom ketik lega.
